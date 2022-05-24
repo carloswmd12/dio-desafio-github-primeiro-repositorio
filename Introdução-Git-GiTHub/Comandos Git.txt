@@ -1,0 +1,44 @@
+Status dentro do diretório
+
+* git status
+
+Adicionar arquivo para Stage:
+
+* git add "arquivo" e pasta/ ou git add * caso todos arquivos de um diretório.
+
+Adicionando arquivo no commit:
+
+* git commit -m "o que foi feito no arquivo/msg"
+
+Listar todas configurações do seu git:
+
+* git config --list
+
+Alterar user name ou user email
+
+remover:
+
+* git config --global --unset user.email
+* git config --global --unset user.name
+
+criar novamente:
+
+* git config --global user.email "email"
+* git config --global user.name "username"
+
+Apontar para o github:
+
+* git remote add origin https://github.com/carloswmd12/livro-receitas.git
+
+Empurrar para o github:
+
+* git push origin master
+
+Puxar do github
+
+* git pull origin master
+
+Baixar repositório do GitHub
+
+* git clone "colar link"
+
